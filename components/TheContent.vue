@@ -39,7 +39,7 @@
       <!-- title -->
       <div class="level mb-0">
         <h5 class="title is-5 is-pulled-left">
-          {{ capitalize(vacancy.title) }}
+          {{ _.capitalize(vacancy.title) }}
         </h5>
         <div class="is-pulled-right cursor-pointer">
           <fa icon="pen" @click="handleVacancyEdit(index)" />
@@ -47,7 +47,7 @@
       </div>
       <!-- description -->
       <div class="level">
-        <div class="">{{ capitalize(vacancy.description) }}</div>
+        <div class="">{{ _.capitalize(vacancy.description) }}</div>
       </div>
       <!-- dates -->
       <div class="level">
@@ -86,7 +86,7 @@
 <script>
 import { defineComponent } from "vue";
 import { useStore } from "vuex";
-import { capitalize } from "lodash";
+import _ from "lodash";
 import moment from "moment";
 
 export default defineComponent({
@@ -142,8 +142,8 @@ export default defineComponent({
       filter,
       handleFilterChange,
       canShowFiltered,
-      capitalize,
       formatDate,
+      _,
     };
   },
 });
