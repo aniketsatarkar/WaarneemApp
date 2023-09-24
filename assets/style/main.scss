@@ -1,0 +1,79 @@
+.side-panel {
+	width: 400px;
+	z-index: 2
+}
+
+:root {
+	--slider-connect-bg: #FF6C86;
+	--slider-tooltip-bg: #FF6C86;
+	--slider-handle-ring-color: #3B82F630;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 768px) {
+	.side-panel {
+		position: absolute !important;
+		left: 0px;
+		width: 100vw;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 992px) {
+	.side-panel {
+		position: absolute !important;
+		left: 0px;
+		width: 100vw;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1200px) {
+	.side-panel {
+		position: absolute !important;
+		left: 0px;
+		width: 100vw;
+	}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1400px) {
+	// ....
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+	// ....
+}
+
+.is-rounded {
+	border-radius: 5px;
+}
+
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.w-100 {
+	width: 100% !important;
+}
+
+.h-100-vh {
+	height: 100vh !important;
+}
+
+.is-underline {
+	text-decoration: underline #FF6C86 3px;
+}
+
+.card {
+	box-shadow: 0 0.5em 2em 0.875em rgba(10, 10, 10, 0.2),
+		0 0 0 1px rgb(18 17 17 / 2%) !important;
+}
+
+.shift-list {
+	height: calc(100vh - 428px);
+	overflow: hidden;
+	overflow-y: auto;
+}

@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@vueform/slider": "^2.1.7",
+    "bulma": "^0.9.3",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "vuex": "^4.0.2"
+  }
+}
